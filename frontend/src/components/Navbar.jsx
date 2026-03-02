@@ -104,7 +104,7 @@ export default function Navbar() {
                                     className={[
                                         'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors',
                                         isActive(item.to)
-                                            ? 'bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100'
+                                            ? 'bg-emerald-50 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400'
                                             : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-900/60 dark:hover:text-slate-100'
                                     ].join(' ')}
                                 >
